@@ -45,7 +45,7 @@ function draw() {
   stoneObj.display();
 
   if(stoneObj.body.position.x >1050 && stoneObj.body.position.y >75 && stoneObj.body.position.y <160){
-	  Body.setStatic(mango1 , false);
+	  Body.setStatic(mango1.body , false);
   }
 
   console.log(mouseX , mouseY);
